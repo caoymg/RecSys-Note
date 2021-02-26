@@ -14,9 +14,9 @@
 
 - Optimizing MF with BPR leads to a recommender model that is highly vulnerable to adversarial perturbations on its model parameters, which implies the possibly large error in generalization.
 
-- Proposed a new optimization framework, namely **Adversarial Personalized Ranking(APR)** which enhances the pairwise ranking method BPR by performing adversarial training (**by adding adversarial perturbations on the embedding vectors of users and items**).
+- Proposed a new optimization framework, namely **Adversarial Personalized Ranking(APR)** which enhances the pairwise ranking method BPR by performing adversarial training (**by adding adversarial perturbations on the embedding vectors of users and items**).
 
-- The whole framework of APR can be optimized with the standard stochastic gradient descent. Derived the APR solver for MF and term the method as **Adversarial Matrix Factorization(AMF)** 
+- The whole framework of APR can be optimized with the standard stochastic gradient descent. Derived the APR solver for MF and term the method as **Adversarial Matrix Factorization(AMF)** 
 
   
 
@@ -28,9 +28,9 @@
   
   - **eq(1) objective function of BPR:** can be interpreted as a classifier — given a triplet (*u*,*i*, *j*), it determines whether (*u*,*i*) should have a higher score than (*u*, *j*).  A positive instance of (*u*,*i*, *j*) means that *y*ˆ*ui* should be larger than*y*ˆ*uj* as much as possible to get the correct label of +1; and a negative instance can be seen as having a label of 0.
   
-  - **eq(2) adversarial perturbations: **aim to maximize the objective function of BPR
+  - **eq(2) adversarial perturbations: **aim to maximize the objective function of BPR
   
-  - **eq(3) optimal Δ:** As MF is a bilinear model and BPR objective function involves nonlinear operations, it is intractable to get exact maximization with respect to Δ. we approximate the objective function by linearizing it round Δ. 
+  - **eq(3) optimal Δ:** As MF is a bilinear model and BPR objective function involves nonlinear operations, it is intractable to get exact maximization with respect to Δ. we approximate the objective function by linearizing it round Δ. 
   
     
 
@@ -40,7 +40,7 @@
 
   <img src="https://p26-tt.byteimg.com/origin/pgc-image/307e67995f504c668514d6f60bb09c65" alt="img" style="zoom:50%;" />
 
-  - **eq(4) objective function of APR:** the adversarial term LBPR (D |Θ + Δ*adv* ) -- regularizing the model by stabilizing the classification function in BPR (also called *adversarial regularizer* and use *λ* to control its strength).
+  - **eq(4) objective function of APR:** the adversarial term LBPR (D |Θ + Δ*adv* ) -- regularizing the model by stabilizing the classification function in BPR (also called *adversarial regularizer* and use *λ* to control its strength).
   -  **eq(5) training process of APR:** the intermediate variable Δ maximizes the objective function to beminimized by Θ (minx-game)
   -  the model parameters **Θ are initialized by optimizing BPR** , rather than randomly initialized. (the adversarial perturbations are only reasonable and necessary to add when the model parameters start to overfit the data.) 
 
