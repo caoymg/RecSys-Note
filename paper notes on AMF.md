@@ -28,7 +28,7 @@
   
   - **eq(1) objective function of BPR:** can be interpreted as a classifier — given a triplet (*u*,*i*, *j*), it determines whether (*u*,*i*) should have a higher score than (*u*, *j*).  A positive instance of (*u*,*i*, *j*) means that *y*ˆ*ui* should be larger than*y*ˆ*uj* as much as possible to get the correct label of +1; and a negative instance can be seen as having a label of 0.
   
-  - **eq(2) adversarial perturbations:**aim to maximize the objective function of BPR
+  - **eq(2) adversarial perturbations:** aim to maximize the objective function of BPR
   
   - **eq(3) optimal Δ:** As MF is a bilinear model and BPR objective function involves nonlinear operations, it is intractable to get exact maximization with respect to Δ. we approximate the objective function by linearizing it round Δ. 
   
