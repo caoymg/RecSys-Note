@@ -8,6 +8,7 @@
 
 
 
+
 #### **1. Introduction**
 
 - The negative samples in ranking pairs are obtained randomly, which may fail to leverage “critical” negative samples in the model training. On the other hand, most of previous works did not exploit geographical information comprehensively, which may also affect the performance.
