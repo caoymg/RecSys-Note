@@ -41,7 +41,7 @@
 
     - one self-attention block
 
-    - the degree of the rationality for the generated recommendation sequence is measured by a Multiple-Layer Perceptron (MLP)
+    - the degree of the rationality for the generated recommendation sequence is measured by a Multiple-Layer Perceptron (MLP)
 
       <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/af9f66fe5d1f4b55a7ed0c74faf04beb" alt="img" style="zoom:50%;" />
 
