@@ -19,6 +19,7 @@
 
 #### 2. Methods
 
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" width = "300" height = "200"  />
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" alt="img" style="zoom:50%;" />
 
 - *Components*
