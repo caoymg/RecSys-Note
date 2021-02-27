@@ -12,8 +12,8 @@
 
 #### **1. Introduction**
 
-- When context information (called *factor*) is involved, model trained with *Maximum Likelihood Estimation (MLE)* is difficult to analyze when and how each individual factor would affect the final recommendation performance. 
-- Proposed  **Multi-Factor Generative Adversarial Network (MFGAN)** has two kinds of modules: a **Transformer-based generator** taking user behavior sequences as input to recommend the possible next items, and **multiple factor-specific discriminators** to evaluate the generated sub-sequence from the perspectives of different factors.
+- When context information (called *factor*) is involved, model trained with *Maximum Likelihood Estimation (MLE)* is difficult to analyze when and how each individual factor would affect the final recommendation performance. 
+- Proposed  **Multi-Factor Generative Adversarial Network (MFGAN)** has two kinds of modules: a **Transformer-based generator** taking user behavior sequences as input to recommend the possible next items, and **multiple factor-specific discriminators** to evaluate the generated sub-sequence from the perspectives of different factors.
 
 
 
@@ -23,7 +23,7 @@
 
 - *Components*
 
-  -  **the prediction component (*𝑖.𝑒.* generator *𝐺*)** which is a sequential recommendation model and successively generates the next items based on the current historical sequence. (the generator will not use any context information from the item side. It only makes the prediction conditioned on historical sequence data.)
+  -  **the prediction component (*𝑖.𝑒.* generator *𝐺*)** which is a sequential recommendation model and successively generates the next items based on the current historical sequence. (the generator will not use any context information from the item side. It only makes the prediction conditioned on historical sequence data.)
 
     -  *Embedding Layer* 
       - item embedding matrix 𝑴 ∈ R |I|×*𝑑*:  project original one-hot representations of items to *𝑑*-dimensional dense representations. 
@@ -47,7 +47,7 @@
 
 - *Overall Procedure*
 
-  - The evaluation results are sent back to the generator to guide the learning of the generator at the next round. Correspondingly, the discriminator is updated by taking the generated sequence and actual sequence (*i.e.,* ground-truth user behaviors) as the training samples for improving its discriminative capacity. 
+  - The evaluation results are sent back to the generator to guide the learning of the generator at the next round. Correspondingly, the discriminator is updated by taking the generated sequence and actual sequence (*i.e.,* ground-truth user behaviors) as the training samples for improving its discriminative capacity. 
 
     <img src="https://p26-tt.byteimg.com/origin/pgc-image/7220700b50a140858543e3f5423a364d" alt="img" style="zoom:50%;" />
 
@@ -65,9 +65,9 @@
   - **IRGAN** ( combines two types of models via adversarial training, a generative model that generates items for a user and a discriminative model that determines whether the instance is from real data or generated)
   - **FPMC** ( combines Matrix Factorization and Markov Chain, which can simultaneously capture sequential information and long-term user preference)
   - **GRU** (proposes to incorporate additional feature vector as the input of GRU networks, which incorporates auxiliary features to improve sequential recommendation)
-  - **SASRec** (It is a next-item sequential recommendation method based on the Transformer architecture, which adaptively considers interacted items for prediction. This method is the state of-the-art baseline for sequential recommendation)
+  - **SASRec** (It is a next-item sequential recommendation method based on the Transformer architecture, which adaptively considers interacted items for prediction. This method is the state of-the-art baseline for sequential recommendation)
 
 ![img](https://p3-tt-ipv6.byteimg.com/origin/pgc-image/63510c6f490446dcba0b59aeafca2fb6)
 
-- APR  outperforms BPR with a relative improvement of **11.2% on average** and achieves state-of-the-art performance for item recommendation.
+
 
