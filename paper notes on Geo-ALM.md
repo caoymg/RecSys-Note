@@ -38,7 +38,7 @@
 
   - fuse geographical information into the discriminator:  The POI feature →*vj* depicts the user’s preference to POI. The region feature → *Rvj* can characterize the sketch of the POIs in the corresponding region, its dot product with user’s embedding can depict user’s geographical and general preference to the region.
 
-    <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/c9cfb10f1031457b9345452f25c8bbe1" height="70%" width="70%" />
+    <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/c9cfb10f1031457b9345452f25c8bbe1" height="50%" width="50%" />
 
   - inspired by the Skip-gram model, we exploit the geographical correlation to enhance the prior knowledge.
 
@@ -48,7 +48,7 @@
 
   - For a newly generated negative pair (*ui* *, vj'* ) together with the positive pair (*ui* *, vj* ), the reward function calculated by the discriminator is defifined as
 
-    <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/9bc5f0a4d2224db88e0f02eea8b406be" height="70%" width="70%" />
+    <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/9bc5f0a4d2224db88e0f02eea8b406be" height="50%" width="50%" />
 
 #### 4. Experiments
 
