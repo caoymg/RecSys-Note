@@ -37,7 +37,7 @@
 
   - **the evaluation component** that is a set of *𝑚* discriminators {*𝐷*1*,*𝐷*2*, . . . , *𝐷*𝑚} for judging the rationality of generated sequences. Each discriminator performs the judgement from a certain perspective based on the information of some corresponding factor. (*𝑖.𝑒.*, music recommender system: multiple discriminators specially designed with category information, popularity statistics, artist and album of music.)
 
-    - *Embedding Layer*
+    - embedding layer
 
     - one self-attention block
 
