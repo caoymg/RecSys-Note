@@ -18,7 +18,7 @@
 
 
 #### 2. Methods
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" style="zoom:20%;" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" width="50%" height="50%" />
 
 - *Components*
 
@@ -32,7 +32,7 @@
     -  *Self-attention Block*
     -  *Prediction Layer*
 
-    <img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/6ed577a0be3d49d08be3cd8d37213ac5" alt="img" style="zoom:10%;" />
+    <img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/6ed577a0be3d49d08be3cd8d37213ac5" width="50%" height="50%"  />
 
   - **the evaluation component** that is a set of *𝑚* discriminators {*𝐷*1*,*𝐷*2*, . . . , *𝐷*𝑚} for judging the rationality of generated sequences. Each discriminator performs the judgement from a certain perspective based on the information of some corresponding factor. (*𝑖.𝑒.*, music recommender system: multiple discriminators specially designed with category information, popularity statistics, artist and album of music.)
 
@@ -42,19 +42,19 @@
 
     - the degree of the rationality for the generated recommendation sequence is measured by a Multiple-Layer Perceptron (MLP)
 
-      <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/af9f66fe5d1f4b55a7ed0c74faf04beb" alt="img" style="zoom:10%;" />
+      <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/af9f66fe5d1f4b55a7ed0c74faf04beb" width="50%" height="50%"  />
 
 - *Overall Procedure*
 
   - The evaluation results are sent back to the generator to guide the learning of the generator at the next round. Correspondingly, the discriminator is updated by taking the generated sequence and actual sequence (*i.e.,* ground-truth user behaviors) as the training samples for improving its discriminative capacity. 
 
-    <img src="https://p26-tt.byteimg.com/origin/pgc-image/7220700b50a140858543e3f5423a364d" alt="img" style="zoom:10%;" />
+    <img src="https://p26-tt.byteimg.com/origin/pgc-image/7220700b50a140858543e3f5423a364d" width="50%" height="50%"  />
 
     
 
 #### 4. Experiments
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/9e534640d49447bf96e89b2fd4b324ae" alt="img" style="zoom:10%;" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/9e534640d49447bf96e89b2fd4b324ae" width="50%" height="50%"  />
 
 - evaluate it with **Mean Reciprocal Rank (MRR)**, **top-*𝑘* Normalized Discounted cumulative gain (NDCG@10)** and **Hit Ratio (HR@10)**. For each positive item in the test set, we pair it with 100 sampled items that the user has not interacted with as negative items. 
 - *Baselines*
