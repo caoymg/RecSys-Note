@@ -1,10 +1,8 @@
 ### *Title: Geo-ALM: POI Recommendation by Fusing Geographical Information and Adversarial Learning Mechanism*
 
-###### Authors: Wei Liu, Zhi-Jie Wang, Bin Yao and Jian Yin
+###### Authors: Liu, Wei & Wang, Zhi-Jie & Yao, Bin & Yin, Jian.
 
-###### Publication: [SIGIR '18: The 41st International ACM SIGIR Conference on Research & Development in Information Retrieval](https://dl.acm.org/doi/proceedings/10.1145/3209978)June 2018 Pages 355–364https://doi.org/10.1145/3209978.3209981
-
-###### Implementation: https://github.com/hexiangnan/adversarial_personalized_ranking
+###### Publication: IJCAI 2019
 
 ###### Note: Yiming Cao
 
