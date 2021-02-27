@@ -18,8 +18,7 @@
 
 
 #### 2. Methods
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" style="zoom:50%;" />
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" zoom:50% />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/508deb7e2a6c4b88817df503ca2ebde0" style="zoom:20%;" />
 
 - *Components*
 
