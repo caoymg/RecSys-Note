@@ -11,24 +11,23 @@
 #### **1. Introduction**
 
 - In location-based social networks (LBSNs), prospective customer predictions suffer severely from data sparsity. For those new businesses and customers, we have limited information.
-- introduce a Self-Attentive prospective Customer RecommendAtion framework, SACRA, which learns to recommend by making comparisons among **users’ historical check-ins** with **adversarial training**. 
-  - Each check-in business of a user is explained with attention to all his/her historical check-in businesses.
+- introduce a Self-Attentive prospective Customer RecommendAtion framework, SACRA, which learns to recommend by making comparisons among **users’ historical check-ins** with **adversarial training**. 
+  - Each check-in business of a user is explained with attention to all his/her historical check-in businesses.
 
 #### 2. **Preliminaries**
 
 - *Prospective customer recommendation*
 
-  - rank candidate customers given a business. 
+  - rank candidate customers given a business. 
 
   - The goal is to rank the true incoming new customers higher than other candidates. 
 
-  - The candidates here are all customers who have not checked in this business before.
+  - The candidates here are all customers who have not checked in this business before.
 
     
 
 #### 3. Methods
-
-<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/df5cb3d6a64943cfaccc9982957bafbe" alt="img" style="zoom:50%;" />
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/df5cb3d6a64943cfaccc9982957bafbe" width="50%" height="50%" />
 
 - *Multi-head Fusion Network*
   - to complement each check-in business with others, we feed the business embeddings into a multi-head fusion network, the output of which yields the fused business representations.
@@ -37,23 +36,23 @@
 
 - *Aggregation Attention Network*
 
-  -  to derive the aggregated representative business embedding
+  -  to derive the aggregated representative business embedding
 
-  <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/9f083ea53c5d4e668f8e862c6f38fa34" alt="img" style="zoom:50%;" />
+  <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/9f083ea53c5d4e668f8e862c6f38fa34" width="30%" height="30%"/>
 
 - *Check-in Tendency Network*
-  - to model the check-in tendency between user *u* and business *b*, we compare the similarity between the embedding *Eb* of the investigated business *b* and the representative fused business embedding*E*¯*B*.
+  - to model the check-in tendency between user *u* and business *b*, we compare the similarity between the embedding *Eb* of the investigated business *b* and the representative fused business embedding*E*¯*B*.
   - the similarity is represented by *Eb* • *E*¯*B*, where • represents the element-wise multiplication. The similarity is then concatenated with the user embedding *Eu* , the geographical features *Eд*(*b*,*u*), and fed into a one-layer neutral network to calculate the check-in tendency.
 
 - *Adversarial Training*
 
-  - additionally optimize the model to minimize the objective function with the perturbed parameters. Formally, we define the objective function with adversarial examples incorporated as
+  - additionally optimize the model to minimize the objective function with the perturbed parameters. Formally, we define the objective function with adversarial examples incorporated as
 
-    <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/232b907e50724e6aa5f16c67ce1b64d6" alt="img" style="zoom:50%;" />
+    <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/232b907e50724e6aa5f16c67ce1b64d6" width="30%" height="30%" />
 
   - the training process can be summarized as playing a minimax game
 
-    <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/836d09ff90c749109a55c01982ca3389" alt="img" style="zoom:50%;" />
+    <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/836d09ff90c749109a55c01982ca3389" width="30%" height="30%" />
 
   - constructing adversarial perturbations
 
@@ -64,15 +63,15 @@
 
 #### 4. Experiments
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/a45789a08fbe4dd6a1c53fdc28ecdcc0" alt="img" style="zoom:50%;" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/a45789a08fbe4dd6a1c53fdc28ecdcc0" width="50%" height="50%"  />
 
 - *Evaluation*
   - evaluate the ranking list using **Hit Ratio (HR)** and**Normalized Discounted Cumulative Gain (NDCG)**. (*HR* is a recall-based metric, measuring whether the testing item is in the top-K list. While *NDCG* is position-sensitive,which assigns higher score to hits at higher positions.)
 - *Baselines*
   -  WRMF is a point-wise matrix factorization method while MMMF and BPRMF are pair-wise based. 
   - CofiRank, CLiMF focus on optimizing top ranked positions. 
-  - USG, GeoMF, Rank-GeoFM, ASMF, ARMF, and CORALS utilize additional information, such as check-in locations, social relationship, businesses’ attributes, online reviews and temporal information to improve recommendation performance in LBSNs. 
+  - USG, GeoMF, Rank-GeoFM, ASMF, ARMF, and CORALS utilize additional information, such as check-in locations, social relationship, businesses’ attributes, online reviews and temporal information to improve recommendation performance in LBSNs. 
   - SAE-NAD utilizes auto-encoders, with business neighborhood information considered, to make recommendations.
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/aac9620c2a224f848a701f06d8ea63b7" alt="img" style="zoom:67%;" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/aac9620c2a224f848a701f06d8ea63b7" width="50%" height="50%" />
 
