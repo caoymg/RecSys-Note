@@ -20,7 +20,7 @@
 
 #### 3. Methods
 
-<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/14577004dc4744afbf855d8477135e93" width="70%" height="70%" />
+<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/14577004dc4744afbf855d8477135e93" />
 
 -  Using the estimated **user behavior model *φ*** and the corresponding **reward function *r*** as the **simulation environment**, then use **reinforcement learning** to obtain a **recommendation policy**.
 
@@ -51,7 +51,7 @@
   - *Baselines*
     - IKNN, S-RNN, SCKNNC, XGBOOST, DFM, W&D-LR, W&D-CCF
   
-    <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/476890110fb14496ac43dee2709867e9" width="50%" height="50%" />
+    <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/476890110fb14496ac43dee2709867e9" width="70%" height="70%" />
 
 - *Recommendation Policy Based on User Model*
 
