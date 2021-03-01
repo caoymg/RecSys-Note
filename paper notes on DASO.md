@@ -29,6 +29,7 @@
 #### 3. Methods
 
 <img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/d29a66cf32cf4fc0819673854aff9ca1" width="70%" height="70%" />
+
 - *Cyclic User Modeling*
 
   - non linear mapping operation ( a **M**ulti **L**ayer **P**erceptron), denoted as **h *S→I***, to transfer user’s information from the social domain to the item domain.
