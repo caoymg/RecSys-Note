@@ -22,7 +22,7 @@
 
   tween user *ui* and user *uj* , and 0 otherwise.
 
-- Given the interaction matrix **R** and the social network **S**, we aim to predict the unobserved entries (i.e., those where *r**i,j* = 0) in **R**.
+- Given the interaction matrix **R** and the social network **S**, we aim to predict the unobserved entries (i.e., those where *ri,j* = 0) in **R**.
 
 
 
