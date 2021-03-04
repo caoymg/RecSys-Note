@@ -92,5 +92,5 @@
 
   **– PACE**: builds a word2vec-based architecture to jointly learn the embeddings of users and POIs to predict both user preference over POIs and context associated with users and POIs.
 
-<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/fc357c668e1f4e41848953e838b2b925" width="70%" height="70%" />
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/fc357c668e1f4e41848953e838b2b925" width="70%" height="70%" alignment="center"/>
 
