@@ -26,8 +26,8 @@
 - noted that we work on directed graphs and the relation matrix **S** *∈* R*m**×**m*  is asymmetric.
 
 #### 3. Methods
-https://p6-tt-ipv6.byteimg.com/origin/pgc-image/2b6c3e4cb38942f39335e493202cd1ab![image](https://user-images.githubusercontent.com/51432714/110053006-80d46600-7d93-11eb-91f5-56cae80af861.png)
-<img src="" width="50%" height="50%" />
+
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/2b6c3e4cb38942f39335e493202cd1ab" width="80%" height="80%" />
 
 - *Alternative Neighborhood Generation*
 
@@ -71,6 +71,6 @@ https://p6-tt-ipv6.byteimg.com/origin/pgc-image/2b6c3e4cb38942f39335e493202cd1ab
   - RSGAN 
   - LightGCN 
 
-<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/ee1b24ba21624a42ba7fb9389c305f72" width="50%" height="50%" />
+<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/ee1b24ba21624a42ba7fb9389c305f72" width="70%" height="70%" />
 
 
