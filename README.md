@@ -1,6 +1,6 @@
 # RecSys-Note
-### Notes on the frontier paper at the intersection of adversarial training and recommender systems.
-### quick direct
+- ### Notes on the frontier paper at the intersection of adversarial training and recommender systems.
+- ### quick direct:
 #### 1. adversarial training (by adding adversarial perturbations)
 - **paper notes on AMF** 
   - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
