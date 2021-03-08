@@ -1,16 +1,16 @@
 # RecSys-Note
-- ### Notes on the frontier paper at the intersection of adversarial training and recommender systems.
 - ### Notes on the fundamental part of RS.
+- ### Notes on the frontier paper at the intersection of adversarial training and recommender systems.
 - ### quick direct:
-#### 1. 🚗 fundamental part of RS
+#### 🚗 1. fundamental part of RS
 - **notes on shallow model** 
-#### 2. 🚗 adversarial training (by adding adversarial perturbations)
+#### 🚗 2. adversarial training (by adding adversarial perturbations)
 - **paper notes on AMF** 
   - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
 - **paper notes on SACRA**
   - Title: Adversarial Learning to Compare: Self-Attentive Prospective Customer Recommendation in Location based Social Networks[🌟prospective customer recommendation, recommend by making comparisons among users’ historical check-ins with adversarial training]
 
-#### 3. 🚗 adversarial learning (generative adversarial network -- using a generator and a discriminator)
+#### 🚗 3. adversarial learning (generative adversarial network -- using a generator and a discriminator)
 - **paper notes on APOIR** 
   - Title: Adversarial Point-of-Interest Recommendation[🌟geographical and social influence are also incorporated]
 - **paper notes on Cascading DQN** 
