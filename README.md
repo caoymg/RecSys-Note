@@ -1,5 +1,5 @@
 # RecSys-Note
-### Notes on the fundamental part of RS, the frontier paper at the intersection of adversarial training and recommender systems. Below are the quick direct:
+### Notes on the fundamental part of RS, the frontier paper at the intersection of adversarial training and recommender systems. Below is the quick direct:
 #### 🚗 1. fundamental part of RS
 - **notes on shallow model** 
 #### 🚗 2. adversarial training (by adding adversarial perturbations)
