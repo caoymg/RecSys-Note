@@ -1,6 +1,4 @@
-### Probabilistic Matrix Factorization (PMF) model基于概率的矩阵分解模型
-
-
+### 1. Probabilistic Matrix Factorization (PMF) model基于概率的矩阵分解模型
 
 #### low-dimensional factor models
 
@@ -36,14 +34,14 @@ A common practice in the collaborative filtering community is to **remove all us
 
 #### Probabilistic Matrix Factorization (PMF)
 
-假设我们有M部电影，N个用户，以及从1到K1的整型评分值。设Rij表示用户i对电影j的评级，U∈RD×N, V∈RD×M是潜在用户和电影特征矩阵，列向量Ui和Vj分别表示用户特定和电影特定的潜在特征向量。Suppose we have M movies, N users, and integer rating values from 1 to K1. Let Rij represent the rating of user i for movie j, U ∈ RD×N and V ∈ RD×M be latent user and movie feature matrices, with column vectors Ui and Vj representing user-specific and movie-specific latent feature vectors respectively. 
+Suppose we have M movies, N users, and integer rating values from 1 to K1. Let Rij represent the rating of user i for movie j, U ∈ RD×N and V ∈ RD×M be latent user and movie feature matrices, with column vectors Ui and Vj representing user-specific and movie-specific latent feature vectors respectively. 
 
 基础PMF模型, 使用如下两个假设:
 
 (1) 观测噪声（观测评分矩阵R 和近似评分矩阵R ^之差）为高斯分布
 (2) 用户属性U 和电影属性V 均为高斯分布
 
-由于模型性能是通过计算测试集上的均方根误差(RMSE)来衡量的，我们首先采用带有高斯观测噪声的概率线性模型。我们将观察评分上的条件分布定义为: Since model performance is measured by computing the root mean squared error (RMSE) on the test set we first adopt a probabilistic linear model with Gaussian observation noise. We define the conditional distribution over the observed ratings as
+由于模型性能是通过计算测试集上的均方根误差(RMSE)来衡量的，我们首先采用带有高斯观测噪声的概率线性模型 Since model performance is measured by computing the root mean squared error (RMSE) on the test set we first adopt a probabilistic linear model with Gaussian observation noise. We define the conditional distribution over the observed ratings as
 
 ![img](https://p26-tt.byteimg.com/origin/pgc-image/5315d4be56b0487792d927d5d276d22b)
 
@@ -53,7 +51,7 @@ A common practice in the collaborative filtering community is to **remove all us
 
 
 
-我们还在用户和电影特征向量上放置了零均值球面高斯先验: We also place **zero-mean spherical Gaussian priors** on **user** and **movie feature vectors**:
+在用户和电影特征向量上放置了零均值球面高斯先验: place **zero-mean spherical Gaussian priors** on **user** and **movie feature vectors**:
 
 ![img](https://p1-tt-ipv6.byteimg.com/origin/pgc-image/4475b390e8a34c5a8c2e9c69effd7542)
 
@@ -64,7 +62,7 @@ A common practice in the collaborative filtering community is to **remove all us
 
 ![img](https://inews.gtimg.com/newsapp_ls/0/13255827617/0)
 
-- C是一个不依赖于参数的常数 C is a constant that does not depend on the parameters.
+- C is a constant that does not depend on the parameters.
 
 
 
@@ -83,7 +81,6 @@ A common practice in the collaborative filtering community is to **remove all us
 
 ![img](https://p1-tt-ipv6.byteimg.com/origin/pgc-image/419d5121d51248ddab50aaecdc03e9fe)
 
-我们绘制等级1，…，K, 使用函数t(x) = (x−1)/(K−1)，使有效评分值的范围与我们的模型所做的预测范围匹配。用最速下降法使上述目标函数最小化需要的时间与观测次数成线性关系。We map the ratings 1, ..., K to the interval [0, 1] using the function t(x) = (x − 1)/(K − 1), so that the range of valid rating values matches the range of predictions our model makes. Minimizing the objective function given above using steepest descent takes time linear in the number of observations. 
+We map the ratings 1, ..., K to the interval [0, 1] using the function t(x) = (x − 1)/(K − 1), so that the range of valid rating values matches the range of predictions our model makes. Minimizing the objective function given above using steepest descent takes time linear in the number of observations. 
 
-当被训练的模型有30个因子时，这个算法在Matlab中的一个简单实现允许我们在一个小时内对整个Netflix数据集进行一次扫描。A simple implementation of this algorithm in Matlab allows us to make one sweep through the entire Netflix dataset in less than an hour when the model being trained has 30 factors.
 
