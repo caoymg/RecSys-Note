@@ -32,7 +32,8 @@ Suppose we have M movies, N users, and integer rating values from 1 to K1. Let R
 (1) the observation noise 观测噪声（观测评分矩阵R 和近似评分矩阵R^之差）为高斯分布
 (2) movie and user features 用户属性U 和电影属性V 均为高斯分布
 
-由于模型性能是通过计算测试集上的均方根误差(RMSE)来衡量的，我们首先采用带有高斯观测噪声的概率线性模型 Since model performance is measured by computing the root mean squared error (RMSE) on the test set we first adopt a probabilistic linear model with Gaussian observation noise. We define the conditional distribution over the observed ratings as
+由于模型性能是通过计算测试集上的均方根误差(RMSE)来衡量的，我们首先采用带有高斯观测噪声的概率线性模型 Since model performance is measured by computing the root mean squared error (RMSE) on the test set, we first adopt a probabilistic linear model with Gaussian observation noise.
+We define the conditional distribution(条件分布) over the observed ratings as
 
   <img src="https://p26-tt.byteimg.com/origin/pgc-image/5315d4be56b0487792d927d5d276d22b" width="50%" height="50%" />
 
