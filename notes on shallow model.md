@@ -1,5 +1,5 @@
 ### 1. 🚗 Probabilistic Matrix Factorization (PMF) model基于概率的矩阵分解模型
-
+1.1 **Preliminaries**
 #### low-dimensional factor models
 
 - The idea behind such models is that attitudes or preferences of a user are determined by a small number of unobserved factors
