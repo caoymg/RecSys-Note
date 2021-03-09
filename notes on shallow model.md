@@ -1,4 +1,4 @@
-# 1. 🚗 Probabilistic Matrix Factorization (PMF) model基于概率的矩阵分解模型
+# 1. 🚗 Probabilistic Matrix Factorization (PMF) 
 ## 1.1 **Preliminaries**
 #### low-dimensional factor models
 
