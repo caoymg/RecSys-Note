@@ -54,7 +54,7 @@ The log of the **posterior distribution** over the **user** and **movie features
 - C is a constant that does not depend on the parameters.
 
 
-Maximizing the log-posterior(对数后) over movie and user features with hyperparameters (i.e. the observation noise variance and prior variances) kept fixed is equivalent to **minimizing the sum-of-squared-errors objective function with quadratic regularization terms(等价于使用二次正则化项使误差平方和最小)**:
+Maximizing the log-posterior(对数后) over movie and user features with hyperparameters (i.e. the observation noise variance and prior variances) kept fixed is equivalent to **minimizing the sum-of-squared-errors objective function with quadratic regularization terms(最小化含有二次正则化项的误差平方和目标函数)**:
 
 <img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/11428fd10d86432895e8c4d54ea04c4e" width="50%" height="50%" />
 
