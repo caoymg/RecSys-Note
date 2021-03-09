@@ -66,4 +66,4 @@ the dot product between user- and movie-specific feature vectors is passed throu
 
 We map the ratings 1, ..., K to the interval [0, 1] using the function t(x) = (x − 1)/(K − 1), so that the range of valid rating values matches the range of predictions our model makes. Minimizing the objective function given above using steepest descent takes time linear in the number of observations. 
 
-## 1.3 ** Probabilistic Matrix Factorization (PMF)**
+## 1.3 **Probabilistic Matrix Factorization (PMF)**
