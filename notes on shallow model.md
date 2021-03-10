@@ -78,7 +78,7 @@ Introducing **priors for the hyperparameters** and **maximizing the log-posterio
 
  This approach to regularization allows us to use methods that are **more sophisticated than the simple penalization of the Frobenius norm of the feature matrices**. 🎯For example, we can use priors with diagonal or even full covariance matrices as well as adjustable means for the feature vectors. Mixture of Gaussians priors can also be handled quite easily.
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/a6533075f675460ca82f568841a5edc4" width="70%" height="70%" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/a6533075f675460ca82f568841a5edc4" width="50%" height="50%" />
 
 where ΘU and ΘV are the hyperparameters for the priors over user and movie feature vectors respectively and C is a constant that does not depend on the parameters or hyperparameters.
 
@@ -90,7 +90,7 @@ introduce an additional way of **constraining user-specific feature vectors** th
 
  Let W ∈ RD×M be a latent similarity constraint matrix. We define the feature vector for user i as:
 
-<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/371778adc27a4eaa8228a5c155f005b0" width="70%" height="70%"  />
+<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/371778adc27a4eaa8228a5c155f005b0" width="50%" height="50%"  />
 
 - I is the observed indicator matrix with Iij taking on value 1 if user i rated movie j and 0 otherwise. 
 - the i th column of the **W matrix** captures the effect of a **user having rated** a particular movie has on the **prior mean of the user’s feature vector**. ➡️  users that have seen the same (or similar) movies will have **similar prior distributions** for their **feature vectors**. 
@@ -99,15 +99,15 @@ introduce an additional way of **constraining user-specific feature vectors** th
 
 the conditional distribution over the observed ratings as
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/7d0cd930330348638d6fb194a1a4a81e" width="75%" height="75%" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/7d0cd930330348638d6fb194a1a4a81e" width="55%" height="55%" />
 
 regularize the **latent similarity constraint matrix W** by placing a zero-mean spherical Gaussian prior on it
 
-<img src="https://img.imgdb.cn/item/6048290c5aedab222c086c9f.png" width="70%" height="70%" />
+<img src="https://img.imgdb.cn/item/6048290c5aedab222c086c9f.png" width="50%" height="50%" />
 
 As with the PMF model, maximizing the log-posterior is equivalent to minimizing the sum-of-squared errors function with quadratic regularization terms
 
-<img src="https://img.imgdb.cn/item/60482a2d5aedab222c090143.png" width="75%" height="75%" />
+<img src="https://img.imgdb.cn/item/60482a2d5aedab222c090143.png" width="55%" height="55%" />
 
 - λY = σ 2/σ2 Y  
 - λV = σ 2/σ2 V 
