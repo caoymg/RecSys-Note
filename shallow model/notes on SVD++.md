@@ -3,7 +3,7 @@
 ##### Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model
 
 ## 1 **Preliminaries**
-#### 2.1.1 Baseline estimates
+#### 1.1 Baseline estimates
 
 A baseline estimate for an unknown rating *r ui* is denoted by ***b ui*** and accounts for the user and item effects
 
