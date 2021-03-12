@@ -44,9 +44,46 @@ a more accurate neighborhood model, which overcomes these difficulties, need to 
 <img src="https://img.imgdb.cn/item/60487dc75aedab222c417187.png" width="50%" height="50%" />
 
 #### Latent factor models
-
 - explain ratings by characterizing both products and users on factors automatically inferred from user feedback.
+
 - Latent factor models are generally effective at estimating overall structure that relates simultaneously to most or all items. However, these models are **poor at detecting strong associations among a small set of closely related items**, precisely where neighborhood models do best.
 
-❓💬In order to combat overfitting the sparse rating data, models are regularized so estimates are shrunk towards baseline defaults. Regularization is controlled by constants which are denoted as: *λ*1*, λ*2*,...* Exact values of these constants are determined by cross validation. As they grow, regularization becomes heavier.
+-  typical model 
+
+  - The prediction is done by taking an inner product, i.e.<img src="https://img.imgdb.cn/item/604989075aedab222cca8717.png" width="30%" height="30%" />
+    - each user *u* with a user factors vector ***p****u* *∈* R*f* 
+    - each item *i* with an item-factors vector ***q****i* *∈* R*f* 
+  - model directly only the observed ratings❓💬, while avoiding overfitting through an adequate regularized model<img src="https://img.imgdb.cn/item/604989555aedab222ccabc92.png" width="80%" height="80%" />
+
+-  NSVD model
+
+  - avoids explicitly parameterizing each user, but rather models users based on the items that they rated. This way, each item *i* is associated with two factor vectors ***q****i* and ***x****i*. The representation of a user *u* is through the sum:<img src="https://img.imgdb.cn/item/6049ddef5aedab222cf99881.png" width="40%" height="40%" />
+
+  -  so ***r****ui* is predicted as 
+
+    <img src="https://img.imgdb.cn/item/6049e9855aedab222c01926f.png" width="50%" height="50%" />
+
+    - R(*u*) is the set of items rated by user *u*.
+
+
+- explain ratings by characterizing both products and users on factors automatically inferred from user feedback.
+
+- Latent factor models are generally effective at estimating overall structure that relates simultaneously to most or all items. However, these models are **poor at detecting strong associations among a small set of closely related items**, precisely where neighborhood models do best.
+
+-  typical model 
+
+  - The prediction is done by taking an inner product, i.e.<img src="https://img.imgdb.cn/item/604989075aedab222cca8717.png" width="30%" height="30%" />
+    - each user *u* with a user factors vector ***p****u* *∈* R*f* 
+    - each item *i* with an item-factors vector ***q****i* *∈* R*f* 
+  - model directly only the observed ratings❓💬, while avoiding overfitting through an adequate regularized model<img src="https://img.imgdb.cn/item/604989555aedab222ccabc92.png" width="80%" height="80%" />
+
+-  NSVD model
+
+  - avoids explicitly parameterizing each user, but rather models users based on the items that they rated. This way, each item *i* is associated with two factor vectors ***q****i* and ***x****i*. The representation of a user *u* is through the sum:<img src="https://img.imgdb.cn/item/6049ddef5aedab222cf99881.png" width="40%" height="40%" />
+
+  -  so ***r****ui* is predicted as 
+
+    <img src="https://img.imgdb.cn/item/6049e9855aedab222c01926f.png" width="50%" height="50%" />
+
+    - R(*u*) is the set of items rated by user *u*.
 
