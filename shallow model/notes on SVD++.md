@@ -23,7 +23,7 @@ A baseline estimate for an unknown rating *r ui* is denoted by ***b ui*** and ac
 - these methods transform users to the item space by viewing them as baskets of rated items. 
 - Neighborhood models are most effective at detecting very localized relationships. They rely on a few signifificant neighborhood relations, often **ignoring the vast majority of ratings by a user**.
 
-Central to most item-oriented approaches is a similarity measure between items. Frequently, it is based on the **Pearson correlation coeffificient, *ρij*** ❓💬, which measures the tendency of users to rate items *i* and *j* similarly. An appropriate similarity measure, denoted by ***sij*** , would be a shrunk correlation coefficient:
+Central to most item-oriented approaches is a similarity measure between items. Frequently, it is based on the **Pearson correlation coefficient, *ρij***, which measures the tendency of users to rate items *i* and *j* similarly. An appropriate similarity measure, denoted by ***sij*** , would be a shrunk correlation coefficient:
 
 <img src="https://img.imgdb.cn/item/60487d345aedab222c411bfe.png" width="50%" height="50%" />
 
