@@ -67,7 +67,7 @@ the dot product between user- and movie-specific feature vectors is passed throu
 
 We map the ratings 1, ..., K to the interval [0, 1] using the function t(x) = (x − 1)/(K − 1), so that the range of valid rating values matches the range of predictions our model makes. Minimizing the objective function given above using steepest descent takes time linear in the number of observations. 
 
-## 1.3 **Probabilistic Matrix Factorization (PMF)**
+## 1.3  Automatic Complexity Control for PMF Model
 Regularization parameters such as λU and λV defined above provide a more flexible approach to regularization.
 
 As shown above, the problem of **approximating a matrix** in the L2 sense by a product of two low-rank matrices that are **regularized by penalizing their Frobenius norm** can be viewed as **MAP estimation in a probabilistic model with spherical Gaussian priors on the rows of the low-rank matrices**.通过两个以处罚Frobenius范数的方式正则化的低秩的矩阵的乘积近似一个矩阵的问题可以被看作是在低秩矩阵的行上含有球形高斯先验的概率模型中的MAP估计。
