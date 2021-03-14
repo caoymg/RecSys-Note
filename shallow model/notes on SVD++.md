@@ -61,9 +61,9 @@ a more accurate neighborhood model, which overcomes these difficulties, need to 
 
   -  so ***r****ui* is predicted as 
 
-    <img src="https://img.imgdb.cn/item/6049e9855aedab222c01926f.png" width="50%" height="50%" />
+   <img src="https://img.imgdb.cn/item/6049e9855aedab222c01926f.png" width="50%" height="50%" />
 
-    - R(*u*) is the set of items rated by user *u*.
+   - R(*u*) is the set of items rated by user *u*.
 
 
 - explain ratings by characterizing both products and users on factors automatically inferred from user feedback.
