@@ -55,3 +55,20 @@ the output vector of the last hidden layer **z** *L* is transformed to the final
 3. For ranking task, we can optimize pairwise personalized ranking loss  or contrastive max-margin loss.
 4.  use mini-batch Adagrad as the optimizer, rather than the vanilla SGD. Its main advantage is that the learning rate can be self adapted during the training phase.
 
+## 2. **EXPERIMENTS**
+
+#### 2.1 experimental settings
+
+<img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/354f1c3a65ff44aa94bc66284856a0ae" width="50%" height="50%" />
+
+- evaluate with ***root mean square error* (RMSE)**, where a lower RMSE score indicates a better performance. Note that RMSE has been widely used for **evaluating regression tasks** such as **recommendation with explicit ratings**  and **click-through rate prediction**.
+- **Baselines**
+  - **LibFM**， **HOFM**，**Wide&Deep**，**DeepCross**
+
+#### 2.2 Findings
+
+-  dropout can also be an effective strategy to address overfittng of linear latent-factor models.
+- by addressing the internal covariate shift with BN, the model’s generalization ability can be improved.
+- best performance is when using one hidden layer only.
+  - because the Bi-Interaction layer has encoded informative second-order feature interactions, and based on which, a simple non-linear function is suffcient to capture higher-order interactions. 
+
