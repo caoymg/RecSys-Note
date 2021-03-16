@@ -10,8 +10,8 @@ Similar to factorization machine, NFM is a general machine learner working with 
 
 <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/b4d59e458dd84d899b79c3760b0d8f14" width="50%" height="50%" />
 
--  first and second terms are the linear regression part similar to that for FM, which models **global bias of data** and **weight of features**. 
-- third term is the core component of NFM for modelling feature interactions, which is a **multi-layered feed forward neural network** as shown in Figure 2.
+-  first and second terms are the linear regression part similar to that for FM, which models **global bias of data** and **weight of features**. 
+- third term is the core component of NFM for modelling feature interactions, which is a **multi-layered feed forward neural network** as shown in Figure 2.
 
 <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/557aa2b450cd466cb2b2b833ef7c791c" width="50%" height="50%" />
 
