@@ -1,6 +1,7 @@
 #  🚗 **NFM**
 
 ##### Neural Factorization Machines for Sparse Predictive Analytics
+##### Publication: https://dl.acm.org/doi/abs/10.1145/3077136.3080777
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/8f4f8b6ddc284e6398add3d22190d82d" width="100%" height="100%" />
 
 ## 1. The NFM model
