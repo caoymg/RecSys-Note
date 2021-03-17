@@ -6,8 +6,6 @@
 
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/0170329c2af44932b39b4067eca441cd" width="100%" height="100%" />
 
-<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/facc1647ef2040f58f00f3004daa148e" width="50%" height="50%" />
-
 
 
 ## 1. The Wide & Deep Learning model
@@ -30,5 +28,5 @@ The wide component is a generalized linear model of the form *y* = **w** *T* **x
 
 #### **1.3 Joint Training of Wide & Deep Model**
 
-The wide component and deep component are combined using a **weighted sum of their output log odds** as the prediction, which is then fed to one common logistic loss func tion for joint training.
+The wide component and deep component are combined using a **weighted sum of their output log odds** as the prediction, which is then fed to one common logistic loss function for joint training.
 
