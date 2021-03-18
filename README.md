@@ -5,6 +5,9 @@
 ###### notes on AMF
 ###### notes on SVD++
 ###### notes on FISM
+##### notes on deep model 
+###### notes on Wide&Deep
+###### notes on FM
 #### 🚗 2. adversarial training (by adding adversarial perturbations)
 ###### paper notes on AMF 
 - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
