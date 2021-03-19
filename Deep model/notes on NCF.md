@@ -6,8 +6,6 @@
 
 <img src="https://img.imgdb.cn/item/60549ac4524f85ce293b7bd9.png" width="100%" height="100%" />
 
-<img src="https://img.imgdb.cn/item/6054a08e524f85ce293f27fd.png" width="50%" height="50%" />
-
 
 
 ## 1.  NCF framework
