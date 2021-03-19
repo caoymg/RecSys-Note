@@ -6,9 +6,6 @@
 
 <img src="https://p1-tt-ipv6.byteimg.com/img/pgc-image/36073ff73ce84bbf9e0bbdbe8f1c3a52~tplv-obj.image" width="100%" height="100%" />
 
-<img src="https://p6-tt-ipv6.byteimg.com/img/pgc-image/33280dd49c1a4b2e865ec4314931b5f7~tplv-obj.image" width="50%" height="50%" />
-
-
 
 ## 1. Model Architecture
 
