@@ -16,13 +16,13 @@
 
 #### 1.1 MF's limitation caused by using an inner product
 
-Despite the effectiveness of MF for collaborative filtering, it is well-known that its performance can be hindered by the simple choice of the interaction function — inner product. For example, for the task of rating prediction on explicit feedback, it is well known that the performance of the MF model can be improved by incorporating user and item bias terms into the interaction function
+Despite the effectiveness of MF for collaborative filtering, it is well-known that its performance can be hindered by the simple choice of the interaction function — inner product. For example, for the task of rating prediction on explicit feedback, it is well known that the performance of the MF model can be improved by incorporating user and item bias terms into the interaction function
 
 <img src="https://img.imgdb.cn/item/60549c69524f85ce293c6b1a.png" width="50%" height="50%"/>
 
 #### 1.2  **Generalized Matrix Factorization (GMF)**
 
-Intuitively, if we use an identity function for **a** *out*  and enforce **h** to be a uniform vector of 1, we can exactly recover the MF model.
+Intuitively, if we use an identity function for **a** *out*  and enforce **h** to be a uniform vector of 1, we can exactly recover the MF model.
 
 <img src="https://img.imgdb.cn/item/60549f4b524f85ce293e3bee.png" width="50%" height="50%" />
 
