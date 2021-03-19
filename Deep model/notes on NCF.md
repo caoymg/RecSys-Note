@@ -28,7 +28,7 @@ Intuitively, if we use an identity function for **a** *out*  and enforce **h** t
 - **a** *out* denotes the activation function 
 - **h** edge denotes weights of the output layer
 
-#### **1.3 **Fusion of GMF and MLP
+#### 1.3 Fusion of GMF and MLP
 
 allow GMF and MLP to learn separate embeddings, and combine the two models by concatenating their last hidden layer.
 
