@@ -10,7 +10,7 @@
 
 ## 1.  NCF framework
 
-<img src="https://img.imgdb.cn/item/60549c82524f85ce293c796c.png" width="60%" height="60%" />
+<img src="https://camo.githubusercontent.com/f6837a03f5f20d88b2cb523ad24dc6a039a47eef1108c7244143a76b075c98ae/68747470733a2f2f696d672e696d6764622e636e2f6974656d2f3630353439633832353234663835636532393363373936632e706e67" width="60%" height="60%" />
 
 #### 1.1 MF's limitation caused by using an inner product
 
