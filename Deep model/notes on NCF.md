@@ -22,7 +22,7 @@ Despite the effectiveness of MF for collaborative filtering, it is well-known th
 
 Intuitively, if we use an identity function for **a** *out*  and enforce **h** to be a uniform vector of 1, we can exactly recover the MF model.
 
-<img src="https://img.imgdb.cn/item/60549f4b524f85ce293e3bee.png" width="50%" height="50%" />
+<img src="https://p9-tt-ipv6.byteimg.com/img/pgc-image/b60af0df8868468986934c1798d0d5b3~tplv-obj.image" width="50%" height="50%" />
 
 -  user latent vector **pu** and item latent vector **qi**
 - **a** *out* denotes the activation function 
