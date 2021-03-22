@@ -15,6 +15,7 @@
 ###### notes on NCF
 
 <img src="https://p26-tt.byteimg.com/img/pgc-image/ccc5cb22247f4eba8fa16c2c4399355a~tplv-obj.image" width="100%" height="100%" />
+
 #### 🚗 2. adversarial training (by adding adversarial perturbations)
 ###### paper notes on AMF 
 - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
