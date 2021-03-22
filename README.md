@@ -5,12 +5,14 @@
 ###### notes on AMF
 ###### notes on SVD++
 ###### notes on FISM
+<img src="https://p3-tt-ipv6.byteimg.com/img/pgc-image/6e6a47ae8a6947e2acd65e98dd352287~tplv-obj.image" width="100%" height="100%" />
 ##### notes on deep model 
 ###### notes on FM
 ###### notes on NFM
 ###### notes on Wide&Deep
 ###### notes on Deep Crossing
 ###### notes on NCF
+<img src="https://p26-tt.byteimg.com/img/pgc-image/ccc5cb22247f4eba8fa16c2c4399355a~tplv-obj.image" width="100%" height="100%" />
 #### 🚗 2. adversarial training (by adding adversarial perturbations)
 ###### paper notes on AMF 
 - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
