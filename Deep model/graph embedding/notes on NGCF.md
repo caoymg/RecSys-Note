@@ -6,9 +6,6 @@
 
 <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/468a910045484d5d9e505afc4ac3a13e" width="100%" height="100%" />
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/b30aaec56da94e67b34ce7a778a7e4ad" width="50%" height="50%" />
-
-
 
 ## 1.  NGCF framework
 
@@ -25,12 +22,6 @@
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/ad2cddc35e904bdc99de61dbf9e2c9db" width="50%" height="50%"/>
 
 - W1, W2  are the trainable weight matrices to distill useful information for propagation (*d*′ is the transformation size) 
-
-∈ 
-
-R*d*′×
-
-*d* are the trainable weight matrices to distill
 
 - Distinct from conventional graph convolution networks that consider the contribution of e*i* only, here additionally encode the interaction between e*i* and e*u* into the message being passed via e*i* ⊙ e*u* （⊙ denotes the element-wise product.）
 - *pui* as the graph Laplacian norm (N*u* and N*i* denote the first-hop neighbors of user *u* and item *i*)
@@ -79,6 +70,6 @@ the matrix form of the layer-wise propagation rule (equivalent to Equations (5) 
 
 - R ∈ *RN* ×*M* is the user-item interaction matrix
 
-- 0 is all zero matrix
+- 0 is all zero matrix
 - A is the adjacency matrix  
 - D is the diagonal degree matrix
