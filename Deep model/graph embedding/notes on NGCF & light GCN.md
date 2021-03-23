@@ -77,7 +77,7 @@ the matrix form of the layer-wise propagation rule (equivalent to Equations (5) 
 
 ## 2. Light GCN framework
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/ed9d3f83defa46aa8724d8e535eee28e" width="100%" height="100%" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/ed9d3f83defa46aa8724d8e535eee28e" width="50%" height="50%" />
 
 LightGCN adopts the **simple weighted sum aggregator** and **abandon** the use of *feature transformation* and *nonlinear activation*. 
 
