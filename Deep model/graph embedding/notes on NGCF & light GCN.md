@@ -77,8 +77,14 @@ the matrix form of the layer-wise propagation rule (equivalent to Equations (5) 
 
 ## 2. Light GCN framework
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/ed9d3f83defa46aa8724d8e535eee28e" width="50%" height="50%" />
+<img src="https://p26-tt.byteimg.com/origin/pgc-image/ed9d3f83defa46aa8724d8e535eee28e" width="100%" height="100%" />
 
-LightGCN adopts the **simple weighted sum aggregator** and **abandon** the use of *feature transformation* and *nonlinear activation*. *Matrix Form*
+LightGCN adopts the **simple weighted sum aggregator** and **abandon** the use of *feature transformation* and *nonlinear activation*. 
+
+The graph convolution operation (a.k.a., propagation rule) in LightGCN is defined as
+
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/b56fc14844d8459aa29f254983d0e8d2" width="50%" height="50%" />
+
+*Matrix Form*
 
 <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/1f4cae65f885493d8dcd58e2d60e72b0" width="50%" height="50%" />
