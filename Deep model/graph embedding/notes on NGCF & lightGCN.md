@@ -1,4 +1,4 @@
-# 🚗 NGCF
+# 🚗 NGCF & LightGCN
 
 ###### Neural Graph Collaborative Filtering
 
