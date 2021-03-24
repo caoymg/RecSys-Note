@@ -5,9 +5,9 @@
 
 ## 1. **A new neighborhood model**
 
-- abandon user-specific weights in favor of global weights independent of a specific user. The weight from *j* to *i* is denoted by ***w*** *ij* and will be learnt from the data through optimization.
+- abandon user-specific weights in favor of global weights independent of a specific user. The weight from *j* to *i* is denoted by w *ij* and will be learnt from the data through optimization.
   - Usually the weights in a neighborhood model represent interpolation coeffi-cients relating unknown ratings to existing ones. 
-  - Viewing the **weights** as **global offsets**, rather than as user-specific interpolation coeffificients, emphasizes the **influence of missing ratings**. In other words, a user’s opinion is formed not only by what he rated, but also by what he did not rate. (here we sum over all items rated by *u*, unlike (4) that sums over members of S*k*(*i*; *u*).)
+  - Viewing the **weights** as **global offsets**, rather than as user-specific interpolation coeffificients, emphasizes the **influence of missing ratings**. In other words, a user’s opinion is formed not only by what he rated, but also by what he did not rate. (here we sum over all items rated by *u*, unlike (4) that sums over members of S*k*(*i*; *u*).)
 
 - use implicit feedback, which provide an alternative way to learn user preferences. To this end, we add another set of weights.
 - take more risk with well modeled users that provided much input. On the other hand, we are less certain about the modeling of users that provided only a little input, in which case we would like to stay with safe estimates close to the baseline values.
