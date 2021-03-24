@@ -75,7 +75,7 @@ a more accurate neighborhood model, which overcomes these difficulties, need to 
   - The prediction is done by taking an inner product, i.e.<img src="https://img.imgdb.cn/item/604989075aedab222cca8717.png" width="30%" height="30%" />
     - each user *u* with a user factors vector ***p****u* *∈* R*f* 
     - each item *i* with an item-factors vector ***q****i* *∈* R*f* 
-  - model directly only the observed ratings❓💬, while avoiding overfitting through an adequate regularized model<img src="https://img.imgdb.cn/item/604989555aedab222ccabc92.png" width="80%" height="80%" />
+  - model directly only the observed ratings, while avoiding overfitting through an adequate regularized model<img src="https://img.imgdb.cn/item/604989555aedab222ccabc92.png" width="80%" height="80%" />
 
 -  NSVD model
 
@@ -100,7 +100,7 @@ a more accurate neighborhood model, which overcomes these difficulties, need to 
 
 <img src="https://img.imgdb.cn/item/604b1da85aedab222caef29b.png" width="50%" height="50%" />
 
-- model parameters are learnt by solving the **regularized least squares problem**❓💬:
+- model parameters are learnt by solving the **regularized least squares problem**:
 
 <img src="https://img.imgdb.cn/item/604b1de25aedab222caf0ea8.png" width="50%" height="50%" />
 
