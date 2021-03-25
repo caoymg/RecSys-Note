@@ -17,7 +17,7 @@
 <img src="https://p26-tt.byteimg.com/img/pgc-image/ccc5cb22247f4eba8fa16c2c4399355a~tplv-obj.image" width="100%" height="100%" />
 
 #### 🚗 2. adversarial training (by adding adversarial perturbations)
-###### paper notes on AMF 
+###### paper notes on APR 
 - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
 ###### paper notes on SACRA
 - Title: Adversarial Learning to Compare: Self-Attentive Prospective Customer Recommendation in Location based Social Networks[🌟prospective customer recommendation, recommend by making comparisons among users’ historical check-ins with adversarial training]
