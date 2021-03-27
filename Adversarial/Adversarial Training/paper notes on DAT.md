@@ -42,10 +42,10 @@ Output: the predicted preference score of user *u* on item *i*
 
 4. Constructing direction adversarial perturbation. ∆(w) ← Equation (10)
 
-<img src="https://img.imgdb.cn/item/605e9ae18322e6675c0108c0.png" width="50%" height="50%" />
+<img src="https://img.imgdb.cn/item/605e9ae18322e6675c0108c0.png" width="40%" height="40%" />
 
 5. Optimizing model parameters
-<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/363776e8a35f427f8a2bf43772697501" width="50%" height="50%" />
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/363776e8a35f427f8a2bf43772697501" width="40%" height="40%" />
 
 #### 4. Experiments
 
