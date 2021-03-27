@@ -26,17 +26,26 @@ Output: the predicted preference score of user *u* on item *i*
 
 #### 3. Methods
 
-<img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/b90a281275d8426f935ac1fc052be0fe" width="100%" height="100%" />
+<img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/b90a281275d8426f935ac1fc052be0fe" width="80%" height="80%" />
 
 -  Given a user *u*, we make it perturb towards Top-K nearest neighbours in the embedding space based on pre-trained model parameters. 
 -  Meanwhile, the perturbation direction of an observed item *i* and an unobserved item *j* will be perturbed towards the other observed items in the small circle and unobserved items in the large circle, respectively.
 -  In this way, the information of similar examples will flow between each other, which explicitly injects the collaborative signal into adversarial learning process.
 1. Randomly sample examples (u, i, j) from D
-2. Calculating the direction vector. d ← Equation (9)<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/16bd9a766d6344ca901159c90b57c0ff" width="50%" height="50%" />
+2. Calculating the direction vector. d ← Equation (9)
 
-3. Calculating the worst case weights. wdadv ← Equation (12)<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/02b6d638c6004e4f83bcf0c9ca5b135c" width="50%" height="50%" />
-4. Constructing direction adversarial perturbation. ∆(w) ← Equation (10)<img src="https://img.imgdb.cn/item/605e9ae18322e6675c0108c0.png" width="50%" height="50%" />
-5. Optimizing model parameters<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/363776e8a35f427f8a2bf43772697501" width="50%" height="50%" />
+<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/16bd9a766d6344ca901159c90b57c0ff" width="40%" height="40%" />
+
+3. Calculating the worst case weights. wdadv ← Equation (12)
+
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/02b6d638c6004e4f83bcf0c9ca5b135c" width="50%" height="50%" />
+
+4. Constructing direction adversarial perturbation. ∆(w) ← Equation (10)
+
+<img src="https://img.imgdb.cn/item/605e9ae18322e6675c0108c0.png" width="50%" height="50%" />
+
+5. Optimizing model parameters
+<img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/363776e8a35f427f8a2bf43772697501" width="50%" height="50%" />
 
 #### 4. Experiments
 
