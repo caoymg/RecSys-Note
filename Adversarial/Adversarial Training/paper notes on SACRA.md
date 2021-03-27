@@ -43,6 +43,10 @@
 - *Check-in Tendency Network*
   - to model the check-in tendency between user *u* and business *b*, we compare the similarity between the embedding *Eb* of the investigated business *b* and the representative fused business embedding*E*¯*B*.
   - the similarity is represented by *Eb* • *E*¯*B*, where • represents the element-wise multiplication. The similarity is then concatenated with the user embedding *Eu* , the geographical features *Eд*(*b*,*u*), and fed into a one-layer neutral network to calculate the check-in tendency.
+  - apply a pairwise ranking scheme to measure the ranking error defined on a business *b*, as well as two users *u*+ and *u*- :
+  
+  <img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/12d57ded1f6a453b8195e6eb46d33163" width="70%" height="70%" />
+
 
 - *Adversarial Training*
 
@@ -56,7 +60,11 @@
 
   - constructing adversarial perturbations
 
-    - Given a training instance (*b*,*u*+,*u*-), the problem of constructing adversarial perturbations ∆*adv* is formulated as maximizing
+    - Given a training instance (*b*,*u*+,*u*-), the problem of constructing adversarial perturbations ∆*adv* is formulated as maximizing、
+    
+  <img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/e9f1121481db42aeaa3c61087d7ca518" width="70%" height="70%" />
+  
+  <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/c913ba42230e42929d739adc9cc6e25f" width="70%" height="70%" />
 
 - *Geographical Influence*
   - employ the Gaussian mixture model (GMM) to generate the geographical features.
