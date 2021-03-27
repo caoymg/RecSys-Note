@@ -1,6 +1,6 @@
 ### *Title: Directional Adversarial Training for Recommender Systems*
 
-###### Authors: **Yangjun Xu, **Liang Chen**, **Fenfang Xie**, **Weibo Hu**,**Jieming Zhu**,**Chuan Chen**,**Zibin Zheng
+###### Authors: Yangjun Xu, Liang Chen, Fenfang Xie, Weibo Hu, Jieming Zhu, Chuan Chen, Zibin Zheng
 
 ###### Publication: http://chenliang.tech/homepagefiles/paper/ECAI_2.pdf
 
