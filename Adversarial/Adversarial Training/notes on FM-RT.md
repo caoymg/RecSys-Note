@@ -56,7 +56,7 @@ the traditional FM model is vulnerable to discrete adversarial perturbations.
 
 **3.2 Robust Certificates**
 
-To certificate the robustness of an instance whose predicted label is -1, we derive an upper bound of *𝛿* reached by all possible perturbations. Similarly, for the instance whose predicted label is 1, the lower bound of *𝛿* is derived.
+To certificate the robustness of an instance whose predicted label is -1, we derive an upper bound of *𝛿* reached by all possible perturbations. Similarly, for the instance whose predicted label is 1, the lower bound of *𝛿* is derived.
 
 To compute the bound, the calculation of equation (5) is divided into two sub-problems. 
 
