@@ -62,7 +62,7 @@ employ cross-entropy loss function:  *loss CE* = *y* log *σ*(*y*ˆ) − (1- *y*
 
 Inserting these conditions into Eq. (3), we have the following loss function:
 
-<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/0154d50268a745138e7051dd7bdadced" width="60%" height="60%" />
+<img src="https://p1-tt-ipv6.byteimg.com/origin/pgc-image/0154d50268a745138e7051dd7bdadced" width="50%" height="50%" />
 
 
 
