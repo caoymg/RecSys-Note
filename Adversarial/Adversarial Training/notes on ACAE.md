@@ -10,8 +10,8 @@
 
 #### **1. Introduction**
 
-- In real-world applications, user's feedbacks are possibly contaminated by imperfect user behaviours, posing challenges on the design of robust recommendation methods. 
-- propose a general adversarial training framework for  neural network(NN)-based recommendation models and apply the approach on the collaborative auto-encoder model, improving both the model robustness and the overall performance.
+- In real-world applications, user's feedbacks are possibly contaminated by imperfect user behaviours, posing challenges on the design of robust recommendation methods. 
+- propose a general adversarial training framework for  neural network(NN)-based recommendation models and apply the approach on the collaborative auto-encoder model, improving both the model robustness and the overall performance.
 
 
 
@@ -78,7 +78,7 @@ Inserting these conditions into Eq. (3), we have the following loss function:
 
 <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/ca4a44ab756e4d61b5a41fda6b05fa71" width="40%" height="40%"/>
 
-- The **accuracy** is reported to compare the classification performance of all models. For the comparison of the robustness, following the previous work [Daniel Zügner and Stephan Günnemann. 2019. Certifiable Robustness and Robust Training for Graph Convolutional Networks. In *KDD*. 246–256.],  display **the average of instances’ largest *𝑞*** that they can be certifiably robust. This metric is referred as **avg-max *𝑞*.**
+- evaluate the ranking list using **Hit Ratio (HR)** and**Normalized Discounted Cumulative Gain (NDCG)**. (*HR* is a recall-based metric, measuring whether the testing item is in the top-K list. While *NDCG* is position-sensitive,which assigns higher score to hits at higher positions.)
 - *Baselines*
   -  **ItemPop**
   - **MF-BPR**
