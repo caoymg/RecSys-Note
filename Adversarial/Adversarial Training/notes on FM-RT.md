@@ -89,7 +89,7 @@ To perform robust training, the model is first trained according to the equation
 - The **accuracy** is reported to compare the classification performance of all models. For the comparison of the robustness, following the previous work [Daniel Zügner and Stephan Günnemann. 2019. Certifiable Robustness and Robust Training for Graph Convolutional Networks. In *KDD*. 246–256.],  display **the average of instances’ largest *𝑞*** that they can be certifiably robust. This metric is referred as **avg-max *𝑞*.**
 - *Baselines*
   - **MF**
-  - **RFM-1 **( state-of-the-art robust factorization machine which forces the model to make right prediction under the continuous noise.)
+  - **RFM-1**( state-of-the-art robust factorization machine which forces the model to make right prediction under the continuous noise.)
   - **RFM-2**
 
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/754c1edbcbc94d2f81ce7d32e0667cd2" width="70%" height="70%"/>
