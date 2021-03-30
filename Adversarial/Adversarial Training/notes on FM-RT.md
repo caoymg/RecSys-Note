@@ -26,7 +26,7 @@ However, there are two limitations:
 
 **2.1 Problem Formulation**
 
-- model the recommendation problem as binary classification (the label is {1, -1}) whose input data is binary. The perturbation we considered is to change the 0 components of input features to 1 which is closer to the reality.
+- model the recommendation problem as binary classification (the label is {1, -1}) whose input data is binary. The perturbation we considered is to change the 0 components of input features to 1 which is closer to the reality.
 
 - Since the fields of input features usually contain specific semantics, directly modifying the fields may change the semantics of the instance. 
 
@@ -77,7 +77,7 @@ Although the solutions of the first and second sub-problem may be different whic
 
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/6af184d3b5c34ccaa5452b0f5858a514" width="50%" height="50%" />
 
-- *𝑓𝜃* (*𝒙𝑠*) + *𝑏*(*𝒙𝑠*) is the bound of prediction under the worst case perturbation. 
+- *𝑓𝜃* (*𝒙𝑠*) + *𝑏*(*𝒙𝑠*) is the bound of prediction under the worst case perturbation. 
 - The perturbation space is P*𝑞* (*𝒙𝑠*) where *𝑞* is a hyper-parameter needed to be tuned.
 
 To perform robust training, the model is first trained according to the equation (12) until convergence. Then we train the model using the equation (13) until convergence.
