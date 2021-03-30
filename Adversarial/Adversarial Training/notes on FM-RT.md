@@ -40,7 +40,7 @@ However, there are two limitations:
 
   <img src="https://p9-tt-ipv6.byteimg.com/origin/pgc-image/49f793c35a4543ddb0f68368f64b646e" width="50%" height="50%" />
 
-  <img src="https://p26-tt.byteimg.com/origin/pgc-image/70d89a01c22f4bd2b27d298a2822d006" width="66%" height="66%" />
+  <img src="https://p26-tt.byteimg.com/origin/pgc-image/70d89a01c22f4bd2b27d298a2822d006" width="60%" height="60%" />
 
 #### 3. Methods
 
