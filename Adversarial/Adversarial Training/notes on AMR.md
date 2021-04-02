@@ -10,9 +10,9 @@
 
 #### **1. Introduction**
 
-- Multimedia content contains rich visually-relevant signal that can reveal user preference, providing opportunities to improve recommender systems that are typically based on collaborative filtering on user behavior data only.
+- Multimedia content contains rich visually-relevant signal that can reveal user preference, providing opportunities to improve recommender systems that are typically based on collaborative filtering on user behavior data only.
 - Emphasize the vulnerability issue of state-of-the-art multimedia recommender systems due to the use of DNNs for feature learning.
-- **Adversarial Multimedia Recommendation (AMR)** is  an adversary which adds perturbations on multimedia content with the aim of maximizing the VBPR loss function. 
+- **Adversarial Multimedia Recommendation (AMR)** is  an adversary which adds perturbations on multimedia content with the aim of maximizing the VBPR loss function. 
 
 #### 2. Methods
 
@@ -39,7 +39,7 @@ where the first term p*T*u qi is same as MF to model the collaborative filterin
 
 The difference of this visually-aware recommender model with VBPR is that it **associates each user with one embedding vector pu** only, while in VBPR each user has two embedding vectors pu and hu. This simplification is just to **ensure a fair comparison with the conventional MF** model when the embedding size K is set as a same number (i.e., making the models have the same representation ability).
 
-The perturbed model is formulated as:
+The perturbed model is formulated as:
 
 <img src="https://p26-tt.byteimg.com/origin/pgc-image/0b254e842898469faae6a7dc79abfc92" width="50%" height="50%" />
 
@@ -59,9 +59,7 @@ The perturbed model is formulated as:
 
   1. Learning Adversarial Perturbations
 
-     Due to the non-linearity of the objective function  and the 𝜀-constraint in optimization, it is difficult to get the exact solution. As such, we bor
-
-     row the idea from the fast gradient sign method, approximating the objective function by linearizing it around 𝛥; and then, we solve the constrained optimization problem on this approximated linear function.
+     Due to the non-linearity of the objective function  and the 𝜀-constraint in optimization, it is difficult to get the exact solution. As such, we borrow the idea from the fast gradient sign method, approximating the objective function by linearizing it around 𝛥; and then, we solve the constrained optimization problem on this approximated linear function.
 
      <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/d1d934adf328418cb6cf24ca413546f3" width="50%" height="50%" />
 
