@@ -103,4 +103,3 @@ For each user, **one interaction** is reserved as the **test item** and **99 ite
   - **CoNet**
   - **SCoNet**
 
-<img src="https://p26-tt.byteimg.com/origin/pgc-image/754c1edbcbc94d2f81ce7d32e0667cd2" width="70%" height="70%"/>
