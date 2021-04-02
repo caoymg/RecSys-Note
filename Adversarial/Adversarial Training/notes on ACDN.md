@@ -47,7 +47,7 @@ define the adversarial perturbations as the model parameter perturbations maximi
 
 -  *θ f* = *{**θ**ft* *, **θ**fs* *}* is the parameters in output and hidden layers. 
 
-  Essentially, the adversarial perturbations **n** *adv* is a kind of **gradient noise**. 
+  Essentially, the adversarial perturbations **n** *adv* is a kind of **gradient noise**. 
 
 
 
@@ -69,7 +69,7 @@ The architecture of the proposed model is shown in Fig. 1, which consists of fou
 
 - Embedding Layer
 
-  Second, the one-hot encodings are embedded into continuous representations and add adversarial perturbations on them to construct adversarial examples in the Embedding Layer.
+  Second, the one-hot encodings are embedded into continuous representations and add adversarial perturbations on them to construct adversarial examples in the Embedding Layer.
 
 - Hidden Layers 
 
@@ -91,7 +91,7 @@ Table 1 summarizes the statistics of the **two real-world cross-domain datasets*
 
 We use the **leave-one-out method** to evaluate the item recommendation model. We randomly sample one interaction for each user as the validation item to determine the model hyper-parameters. 
 
-For each user, **one interaction** is reserved as the **test item** and **99 items which are not interacted** are randomly sampled as **negative examples**. We **evaluate the model by ranking the 100 items**. We adopt the **Hit Ratio (HR)**, the **Normalized Discounted Cumulative Gain (NDCG)** and the **Mean Reciprocal Rank (MRR)** as the evaluation metrics and cut the ranked list at K = 10. 
+For each user, **one interaction** is reserved as the **test item** and **99 items which are not interacted** are randomly sampled as **negative examples**. We **evaluate the model by ranking the 100 items**. We adopt the **Hit Ratio (HR)**, the **Normalized Discounted Cumulative Gain (NDCG)** and the **Mean Reciprocal Rank (MRR)** as the evaluation metrics and cut the ranked list at K = 10. 
 
 - *Baselines*
   - **BPRMF**
