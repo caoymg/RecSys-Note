@@ -11,7 +11,7 @@
 #### **1. Introduction**
 
 - **Cross-domain recommendation** leverages the knowledge from relevant domains to alleviate the data sparsity issue. However, the state-of-the-art cross-domain models are vulnerable to adversarial examples, leading to possibly large errors in generalization.
-- Develop a new Adversarial Cross-Domain Network (ACDN), where adversarial examples are dynamically generated to train a deep cross domain recommendation model.
+- Develop a new Adversarial Cross-Domain Network (ACDN), where adversarial examples are dynamically generated to train a deep cross domain recommendation model.
 
 
 
@@ -27,7 +27,7 @@ MLP++ is adopted as the base model, which combines two MLPs through sharing the 
 
 <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/bf8e93deed8040b7b3d5e8cbcc107ea4" width="50%" height="50%" />
 
-The source and target domains are modelled by two neural networks, and the performance can be improved through transferring knowledge between two domains.
+The source and target domains are modelled by two neural networks, and the performance can be improved through transferring knowledge between two domains.
 
 
 
