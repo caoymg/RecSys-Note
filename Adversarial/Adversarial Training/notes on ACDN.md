@@ -43,7 +43,7 @@ define the adversarial perturbations as the model parameter perturbations maximi
 
 - *n* is the perturbations on the embedding parameters 
 
-- *θ emb* = *{***P** ,  **Q** *t*,  **Q** *s}*
+- *θ emb* = *{* **P** ,  **Q** *t*,  **Q** *s}*
 
 -  *θ f* = *{**θ**ft* *, **θ**fs* *}* is the parameters in output and hidden layers. 
 
