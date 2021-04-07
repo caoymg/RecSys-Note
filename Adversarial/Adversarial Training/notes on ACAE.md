@@ -30,7 +30,7 @@ The predictions for user *u* on the item set *I* are collected in a vector **ˆy
 
 <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/2059b930861d44a39c63371d6622dc12" width="50%" height="50%" />
 
--  **W** **1** *,***W** **2**, **b** **1**, **b** **2**  are encoder and decoder weights and biases
+-  **W** **1** *,**W** **2**, **b** **1**, **b** **2**  are encoder and decoder weights and biases
 - **p** *u* *∈* R*K*  is the embedding vector for user *u*. 
 - *h*(*·*) and *f*(*·*) are activation functions.
 -  **y**˜*u* *∈* R*I* is a noise-corrupted version of **y** *u* *∈* R*I* (the original preference vector of user *u* in *Y*).
@@ -47,9 +47,9 @@ The noises are added on different positions as follows:
 
 <img src="https://p3-tt-ipv6.byteimg.com/origin/pgc-image/28220fbe75154451b36787636940d1b4" width="50%" height="50%" />
 
-conduct the experiments on a pre-trained CAE model using two datasets: MovieLens-1M, and FilmTrust. Model performance is evaluated by HR on the hold-out testing dataset. Sigmoid functions are employed with the cross-entropy loss due to the binary nature of the input ratings.
+conduct the experiments on a pre-trained CAE model using two datasets: MovieLens-1M, and FilmTrust. Model performance is evaluated by HR on the hold-out testing dataset. Sigmoid functions are employed with the cross-entropy loss due to the binary nature of the input ratings.
 
-- To summarize, both types of noises(Gaussian noise/adversarial noise) pose a more deterimental impact when they are added on encoder or decoder weights.Encoder weight perturbations are less harmful and CAE is more robust against Gaussian noise .
+- To summarize, both types of noises(Gaussian noise/adversarial noise) pose a more deterimental impact when they are added on encoder or decoder weights.Encoder weight perturbations are less harmful and CAE is more robust against Gaussian noise.
 
 Choose to add adversarial noises on the **encoder/decoder weights** to make the performance degradation as large as possible
 
@@ -97,7 +97,7 @@ For each user in the dataset, we leave out the lastest user-item interaction and
 
 FilmTrust, we randomly select one interaction for each user.
 
- We adopt the **Hit Ratio (HR@5)** and the **Normalized Discounted Cumulative Gain (NDCG@5)** . 
+ We adopt the **Hit Ratio (HR@5)** and the **Normalized Discounted Cumulative Gain (NDCG@5)** . 
 
 - *Baselines*
   - ItemPop
