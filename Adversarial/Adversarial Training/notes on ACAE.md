@@ -75,7 +75,7 @@ employ **multiple adversarial regularizers** and train the model in a minimax ma
 
 ##### 3.3 Optimization for ACAE
 
-1) pre-training CAE to get optimal parameters Θ; 
+1) pre-training CAE to get optimal parameters Θ; 
 
 2) re-training the above model by iterativelymaximizing (Eq. (3)) and minimizing the loss (Eq. (6)).
 
