@@ -28,7 +28,7 @@ The predictions for user *u* on the item set *I* are collected in a vector **ˆy
 
 <img src="https://p6-tt-ipv6.byteimg.com/origin/pgc-image/2059b930861d44a39c63371d6622dc12" width="50%" height="50%" />
 
--  **W** **1** *,**W** **2**, **b** **1**, **b** **2**  are encoder and decoder weights and biases
+-  **W** **1** ,**W** **2**, **b** **1**, **b** **2**  are encoder and decoder weights and biases
 - **p** *u* *∈* R*K*  is the embedding vector for user *u*. 
 - *h*(*·*) and *f*(*·*) are activation functions.
 -  **y**˜*u* *∈* R*I* is a noise-corrupted version of **y** *u* *∈* R*I* (the original preference vector of user *u* in *Y*).
