@@ -14,9 +14,7 @@
 
 - This work focus on utilizing the nonlinearity of NNs and adversarial training. 
 
-- the first attempt to combine adversarial learning with neural networks for item
-
-  recomendation tasks.
+- the first attempt to combine adversarial learning with neural networks for item recomendation tasks.
 
 
 
