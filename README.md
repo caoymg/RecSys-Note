@@ -1,5 +1,21 @@
 # RecSys-Note
 #### Notes on the fundamental part of RS, the frontier paper at the intersection of adversarial training and recommender systems. Below is the quick direct:
+
+<table>
+<tr><td colspan="2"><a href="#fundamental part of RS">1. Fundamental part of RS</a></td></tr> 
+<tr>
+    <td>&emsp;<a href="#shallow model">1.1 shallow model </a></td>
+    <td>&ensp;<a href="#deep model">1.2 deep model</a></td>
+</tr>
+<tr>
+    <td colspan="2"><a href="#Adversarial machine learning in RS">2. Adversarial machine learning(AML) in RS</a></td>
+</tr>
+<tr><td colspan="2"><a href="#AML survey">2.1 AML survey</a></td></tr>
+<tr><td colspan="2"><a href="#AML Model">2.2 AML Model</a></td></tr>
+      <td>&emsp;<a href="#Adversarial learning Model">2.2.1 Adversarial learning</a></td>
+    <td>&ensp;<a href="#deep model">2.2.2 AML for security purpose (adversarial training)</a></td>
+</table>
+
 #### 🚗 1. fundamental part of RS
 ##### notes on shallow model 
 ###### notes on AMF
