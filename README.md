@@ -1,22 +1,33 @@
 # RecSys-Note
-#### Notes on the fundamental part of RS, the frontier paper at the intersection of adversarial training and recommender systems. Below is the quick direct:
+- [🚗 1. fundamental part of RS](#---1-fundamental-part-of-rs)
+  * [notes on shallow model](#notes-on-shallow-model)
+    + [notes on AMF](#notes-on-amf)
+    + [notes on SVD++](#notes-on-svd--)
+    + [notes on FISM](#notes-on-fism)
+  * [notes on deep model](#notes-on-deep-model)
+    + [notes on FM](#notes-on-fm)
+    + [notes on NFM](#notes-on-nfm)
+    + [notes on Wide&Deep](#notes-on-wide-deep)
+    + [notes on Deep Crossing](#notes-on-deep-crossing)
+    + [notes on NCF](#notes-on-ncf)
+- [🚗 2. adversarial training (by adding adversarial perturbations)](#---2-adversarial-training--by-adding-adversarial-perturbations-)
+    + [paper notes on APR](#paper-notes-on-apr)
+    + [paper notes on SACRA](#paper-notes-on-sacra)
+- [🚗 3. adversarial learning (generative adversarial network -- using a generator and a discriminator)](#---3-adversarial-learning--generative-adversarial-network----using-a-generator-and-a-discriminator-)
+    + [paper notes on APOIR](#paper-notes-on-apoir)
+    + [paper notes on Cascading DQN](#paper-notes-on-cascading-dqn)
+    + [paper notes on DASO](#paper-notes-on-daso)
+    + [paper notes on ESRF](#paper-notes-on-esrf)
+    + [paper notes on Geo-ALM](#paper-notes-on-geo-alm)
+    + [paper notes on LARA](#paper-notes-on-lara)
+    + [paper notes on MFGAN](#paper-notes-on-mfgan)
 
-<table>
-<tr><td colspan="2"><a href="#fundamental part of RS">1. Fundamental part of RS</a></td></tr> 
-<tr>
-    <td>&emsp;<a href="#shallow model">1.1 shallow model </a></td>
-    <td>&ensp;<a href="#deep model">1.2 deep model</a></td>
-</tr>
-<tr>
-    <td colspan="2"><a href="#Adversarial machine learning in RS">2. Adversarial machine learning(AML) in RS</a></td>
-</tr>
-<tr><td colspan="2"><a href="#AML survey">2.1 AML survey</a></td></tr>
-<tr><td colspan="2"><a href="#AML Model">2.2 AML Model</a></td></tr>
-      <td>&emsp;<a href="#Adversarial learning Model">2.2.1 Adversarial learning</a></td>
-    <td>&ensp;<a href="#deep model">2.2.2 AML for security purpose (adversarial training)</a></td>
-</table>
+
+
+
 
 #### 🚗 1. fundamental part of RS
+
 ##### notes on shallow model 
 ###### notes on AMF
 ###### notes on SVD++
