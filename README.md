@@ -1,32 +1,37 @@
-# RecSys-Note
-- [🚗 1. fundamental part of RS](#---1-fundamental-part-of-rs)
-  * [notes on shallow model](#notes-on-shallow-model)
-    + [notes on AMF](#notes-on-amf)
-    + [notes on SVD++](#notes-on-svd--)
-    + [notes on FISM](#notes-on-fism)
-  * [notes on deep model](#notes-on-deep-model)
-    + [notes on FM](#notes-on-fm)
-    + [notes on NFM](#notes-on-nfm)
-    + [notes on Wide&Deep](#notes-on-wide-deep)
-    + [notes on Deep Crossing](#notes-on-deep-crossing)
-    + [notes on NCF](#notes-on-ncf)
-- [🚗 2. adversarial training (by adding adversarial perturbations)](#---2-adversarial-training--by-adding-adversarial-perturbations-)
-    + [paper notes on APR](#paper-notes-on-apr)
-    + [paper notes on SACRA](#paper-notes-on-sacra)
-- [🚗 3. adversarial learning (generative adversarial network -- using a generator and a discriminator)](#---3-adversarial-learning--generative-adversarial-network----using-a-generator-and-a-discriminator-)
-    + [paper notes on APOIR](#paper-notes-on-apoir)
-    + [paper notes on Cascading DQN](#paper-notes-on-cascading-dqn)
-    + [paper notes on DASO](#paper-notes-on-daso)
-    + [paper notes on ESRF](#paper-notes-on-esrf)
-    + [paper notes on Geo-ALM](#paper-notes-on-geo-alm)
-    + [paper notes on LARA](#paper-notes-on-lara)
-    + [paper notes on MFGAN](#paper-notes-on-mfgan)
+# Adversarial Training Recommendation Systems
+**Contents**
+
+[🚗 1. fundamental part of RS](#---1-fundamental-part-of-rs)
+
+* [notes on shallow model](#notes-on-shallow-model)
+  + [notes on AMF](#notes-on-amf)
+  + [notes on SVD++](#notes-on-svd--)
+  + [notes on FISM](#notes-on-fism)
+* [notes on deep model](#notes-on-deep-model)
+  + [notes on FM](#notes-on-fm)
+  + [notes on NFM](#notes-on-nfm)
+  + [notes on Wide&Deep](#notes-on-wide-deep)
+  + [notes on Deep Crossing](#notes-on-deep-crossing)
+  + [notes on NCF](#notes-on-ncf)
+
+[🚗 2. adversarial training (adversarial perturbations)](#---2-adversarial-training--by-adding-adversarial-perturbations-)
+
++ [paper notes on APR](#paper-notes-on-apr)
++ [paper notes on SACRA](#paper-notes-on-sacra)
+
+[🚗 3. adversarial learning (generative adversarial network)](#---3-adversarial-learning--generative-adversarial-network----using-a-generator-and-a-discriminator-)
+
++ [paper notes on APOIR](#paper-notes-on-apoir)
++ [paper notes on Cascading DQN](#paper-notes-on-cascading-dqn)
++ [paper notes on DASO](#paper-notes-on-daso)
++ [paper notes on ESRF](#paper-notes-on-esrf)
++ [paper notes on Geo-ALM](#paper-notes-on-geo-alm)
++ [paper notes on LARA](#paper-notes-on-lara)
++ [paper notes on MFGAN](#paper-notes-on-mfgan)
 
 
 
-
-
-#### 🚗 1. fundamental part of RS
+#### 1. fundamental part of RS
 
 ##### notes on shallow model 
 ###### notes on AMF
@@ -43,7 +48,10 @@
 
 <img src="https://p26-tt.byteimg.com/img/pgc-image/ccc5cb22247f4eba8fa16c2c4399355a~tplv-obj.image" width="100%" height="100%" />
 
-#### 🚗 2. adversarial training (by adding adversarial perturbations)
+
+
+#### 2. adversarial training (by adding adversarial perturbations)
+
 ###### paper notes on APR 
 - Title:Adversarial Personalized Ranking for Recommendation[🌟first train MF with BPR, and then further optimize it under APR framework]
 ###### paper notes on SACRA
